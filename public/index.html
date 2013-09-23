@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Drunken web</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+
+        <link rel="stylesheet" href="css/normalize.min.css">
+        <link rel="stylesheet" href="css/main.css">
+
+        <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+        <script src="http://ec2-75-101-237-143.compute-1.amazonaws.com:30051/socket.io/socket.io.js"></script>
+    </head>
+    <body>
+
+        <!-- first page -->
+        <div id="firstPage" class="original" style="text-align: center;">
+            <header>
+                <h1>DRUNK3N_GL1TCH</h1>
+                <h3>An experiment on simulating a gone-wild-webpage</h3>
+            </header>
+            <div id="firstChooseWeb">
+                <h4>pick a site, drunker!</h4>
+                <span>http://www.</span>
+                <span>
+                    <input type="text" id="firstInput" placeholder="weirdsmiley.com">
+                    <input type="submit" id="firstSubmit" value="submit">
+                </span>
+            </div>
+            <div id="firstConnectMobile">
+                <h4>Now, with your lovely phone, nagivate to http://bit.ly/drunkenweb</h4>
+                <div id="isConnected">Got ya phone, scum. Welcome to the club.</div>
+            </div>
+        </div>
+        <div id="canvas" style="width: 100%; height: 100%; overflow: hidden;"></div>
+
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
+        <script src="js/vendor/html2canvas.js"></script>
+        <script src="js/vendor/glitch.js"></script>
+        <script src="js/vendor/jqcrossdomain.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
